@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        sleep 20
-        exit 0
+          sleep 20
+          exit 1

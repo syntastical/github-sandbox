@@ -1,7 +1,7 @@
 name: workflow2
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -9,4 +9,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - runs: exit 1
+      - runs: exit 0

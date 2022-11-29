@@ -9,4 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 0
+      - run: |
+        sleep 20
+        exit 0
